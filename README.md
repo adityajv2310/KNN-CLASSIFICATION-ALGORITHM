@@ -1,5 +1,5 @@
 ### EX NO : 09
-### DATE  :
+### DATE  : 23.05.2022
 # <p align="center"> KNN CLASSIFICATION ALGORITHM </p>
 ## Aim:
    To implement KNN classification algorithm in python.
@@ -8,25 +8,34 @@
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner /Google Colab
 
 ## Related Theory Concept:
+
 K-nearest neighbors (KNN) algorithm is a type of supervised ML algorithm which can be used for both classification as well as regression predictive problems. However, it is mainly used for classification predictive problems in industry. The following two properties would define KNN well −
 
 Lazy learning algorithm − KNN is a lazy learning algorithm because it does not have a specialized training phase and uses all the data for training while classification.
 
 Non-parametric learning algorithm − KNN is also a non-parametric learning algorithm because it doesn’t assume anything about the underlying data.
+
 ## Algorithm:
-1. Load the iris CSV file which is downloaded from the kaggle.
-2. Preprocess the data by converting the string column to integer column and then rescale it.
-3. Determine the min and Max values for each columns and then split the dataset into k folds then calculate the Euclidean distance between two vectors and then print the accuracy of our model.
+
+1.Load the iris CSV file which is downloaded from the kaggle.</br>
+2.Preprocess the data by converting the string column to integer column and then rescale it.</br>
+3.Determine the min and Max values for each columns and then split the dataset into k folds then calculate the Euclidean distance between two vectors and then print the accuracy of our model.
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Program:
 ```
 /*
 Program to implement KNN classification algorithm.
-Developed by   : Aditya JV
-RegisterNumber : 212220230002 
+Developed by   : ADITYA JV
+RegisterNumber :  212220230002
 */
 ```
-
 ```python
 # k-nearest neighbors on the Iris Flowers Dataset
 from random import seed
@@ -167,10 +176,9 @@ scores = evaluate_algorithm(dataset, k_nearest_neighbors, n_folds, num_neighbors
 print('Scores: %s' % scores)
 print('Mean Accuracy: %.3f%%' % (sum(scores)/float(len(scores))))
 ```
-
 ## Output:
-![NN Exp9](https://user-images.githubusercontent.com/75235386/169679304-a74ef8eb-a454-4f4d-b238-473ea6f2e8e1.png)
 
+![image](https://user-images.githubusercontent.com/74660507/169354034-0fabb03e-198e-459d-8243-5084be30fd7d.png)
 
 
 ## Result:
